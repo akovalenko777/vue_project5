@@ -69,6 +69,7 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  base:'/vue_project5/',
   scrollBehavior() {
     return { top: 0 }
   },
